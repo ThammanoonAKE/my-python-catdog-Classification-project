@@ -1,0 +1,19 @@
+# -----------------------------
+# Core deep‑learning stack (GPU)
+# -----------------------------
+torch==2.3.0+cu121
+torchvision==0.18.0+cu121
+# ให้ pip ดึงล้อ (wheel) ที่มี CUDA 12.1 จาก PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# -----------------------------
+# Scientific computing & plotting
+# -----------------------------
+numpy>=1.26
+matplotlib>=3.9
+
+# -----------------------------
+# Utility / quality‑of‑life (optional แต่แนะนำ)
+# -----------------------------
+tqdm>=4.66        # progress bar สวย ๆ เวลาเทรน
+pillow>=10.3      # backend ของ torchvision.transforms
