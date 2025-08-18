@@ -51,7 +51,6 @@ my-python-catdog-Classification-project/
 ├── full_model.pth                # Pre-trained PyTorch model
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Project documentation
-├── CLAUDE.md                     # Development guidance
 └── *.png, *.jpg, *.jpeg         # Test images
 ```
 
